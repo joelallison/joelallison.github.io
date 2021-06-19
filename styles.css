@@ -1,0 +1,72 @@
+html { background-color: #262626; scroll-behavior: smooth; }
+
+body { 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+    font-family: 'Roboto Mono', monospace;
+    color: #e6e6e6;
+    margin-top: -1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.top-div {
+    background-color: #1F1F1F88;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main {
+    background-color: #222222;
+    padding: 1.5%;
+    padding-bottom: 100%;
+    text-align: center;
+    float: center;
+    word-wrap: break-word;
+}
+h1 {
+    font-size: 270%;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+    line-height: 70%;
+}
+
+h2, h3 { @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+    line-height: 70%;
+}
+
+i {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+}
+
+.topnav {
+    background-color: #1F1F1FAA;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#welcome{
+    height: 20%;
+    background-color: #1F1F1F88;
+}
+
+#about{
+    height: 20%;
+    background-color: #1F1F1F88;
+}
+
+footer {
+    width: 90%;
+    text-align: center;
+    background-color: #1F1F1F88;
+    position: fixed;
+    bottom: 0;
+}
