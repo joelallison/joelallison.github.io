@@ -19,7 +19,8 @@ body::-webkit-scrollbar {
 
 .top-div {
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 4px;
+    padding-bottom: 4px;
     background-color: #1F1F1F88;
     text-align: center;
     position: fixed;
@@ -34,8 +35,17 @@ body::-webkit-scrollbar {
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    float: center;
     word-wrap: break-word;
+}
+
+footer {
+    width: 82%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background-color: #1F1F1F88;
+    position: fixed;
+    bottom: 0;
 }
 
 .main {
@@ -45,7 +55,6 @@ body::-webkit-scrollbar {
 h1 {
     font-size: 270%;
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
-    line-height: 70%;
 }
 
 h2, h3 { @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
@@ -77,12 +86,4 @@ i {
 #about{
     height: 20%;
     background-color: #1F1F1F88;
-}
-
-footer {
-    width: 90%;
-    text-align: center;
-    background-color: #1F1F1F88;
-    position: fixed;
-    bottom: 0;
 }
