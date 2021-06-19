@@ -1,4 +1,4 @@
-html { background-image: "brick1-01-export.png"; background-color: #262626; scroll-behavior: smooth; background-repeat: repeat; }
+html { background-color: #262626; background-image: url("andesite-export.png"); scroll-behavior: smooth; background-repeat: repeat; }
 
 body { 
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
@@ -7,7 +7,15 @@ body {
     margin-top: -1%;
     margin-left: 5%;
     margin-right: 5%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 .top-div {
     padding-left: 16px;
@@ -20,7 +28,7 @@ body {
 }
 
 .content {
-    background-color: #222222;
+    background-color: #232323;
     padding: 1.5%;
     padding-bottom: 100%;
     margin-left: 5%;
