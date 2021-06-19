@@ -1,4 +1,4 @@
 # joel
 ### joel
 
-![tubbo moment](https://imgur.com/Ezk5vQf)
+![tubbo moment](https://i.imgur.com/Ezk5vQf.jpg)
