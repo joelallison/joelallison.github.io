@@ -1,4 +1,4 @@
-html { background-color: #262626; background-image: url("andesite-export.png"); scroll-behavior: smooth; background-repeat: repeat; }
+html { background-image: url("andesite-export.png"); scroll-behavior: smooth; background-repeat: repeat; }
 
 body { 
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
