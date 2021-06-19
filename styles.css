@@ -39,12 +39,11 @@ body::-webkit-scrollbar {
 }
 
 footer {
-    width: 82%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 81%;
     text-align: center;
     background-color: #1F1F1F88;
     position: fixed;
+    left: 9.5%;
     bottom: 0;
 }
 
