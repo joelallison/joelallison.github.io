@@ -1,6 +1,10 @@
-html { background-image: url("andesite-export.png"); scroll-behavior: smooth; background-repeat: repeat; }
+html {
+    background-image: url("joel.png");
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
 
-body { 
+body {
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
     font-family: 'Roboto Mono', monospace;
     color: #e6e6e6;
@@ -26,11 +30,13 @@ body::-webkit-scrollbar {
     position: fixed;
     top: 0;
     margin: 0 auto;
+    box-shadow: -4px 4px #10101088;
 }
 
 .content {
     background-color: #232323;
     padding: 1.5%;
+    padding-top: 0.3%;
     padding-bottom: 100%;
     margin-left: 5%;
     margin-right: 5%;
