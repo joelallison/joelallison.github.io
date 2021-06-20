@@ -38,13 +38,15 @@ body::-webkit-scrollbar {
     word-wrap: break-word;
 }
 
-footer {
+footer, footer a {
     width: 81%;
     text-align: center;
     background-color: #1F1F1F88;
     position: fixed;
     left: 9.5%;
     bottom: 0;
+    color: #e6e6e6;
+    text-decoration: none;
 }
 
 .main {
@@ -69,7 +71,7 @@ i {
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #e6e6e6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
