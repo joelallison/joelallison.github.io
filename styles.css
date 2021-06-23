@@ -21,6 +21,10 @@ body::-webkit-scrollbar {
     display: none;
   }
 
+a {
+    color: #f7a40a;
+}
+
 .top-div {
     padding-left: 16px;
     padding-right: 4px;
