@@ -64,6 +64,14 @@ footer, footer a {
     border: 1px dashed #e6e6e6;
 }
 
+.contact-me, contact-me a {
+    margin: 0 auto;
+    background-color: #FF00FF;
+    text-align: center;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
 h1 {
     font-size: 270%;
     @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
