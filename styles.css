@@ -34,10 +34,11 @@ a {
     position: fixed;
     top: 0;
     margin: 0 auto;
-    box-shadow: -4px 4px #10101088;
+    box-shadow: 4px 4px #10101088;
 }
 
 .content {
+    border: 1px dashed #e6e6e6;
     background-color: #232323;
     padding: 1.5%;
     padding-top: 0.3%;
@@ -61,15 +62,22 @@ footer, footer a {
 
 .main {
     padding-top: 7%;
-    border: 1px dashed #e6e6e6;
 }
 
-.contact-me, contact-me a {
+.contact-me{
+    color: #f7a40aEE;
     margin: 0 auto;
-    background-color: #FF00FF;
     text-align: center;
+}
+
+.contact-me a {
     text-decoration: none;
-    color: #e6e6e6;
+    color: #f7a40aEE;
+
+}
+
+.contact-me td {
+    padding: 0px 12px;
 }
 
 h1 {
