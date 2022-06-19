@@ -25,18 +25,6 @@ a {
     color: #f7a40a;
 }
 
-.top-div {
-    padding-left: 16px;
-    padding-right: 4px;
-    padding-bottom: 4px;
-    background-color: #1F1F1F88;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    margin: 0 auto;
-    box-shadow: 4px 4px #10101088;
-}
-
 .content {
     border: 1px dashed #e6e6e6;
     background-color: #232323;
@@ -93,12 +81,10 @@ i {
 }
 
 .topnav {
-    float: center;
     width: 40%;
 }
 
 .topnav a {
-    float: center;
     color: #e6e6e6;
     text-align: center;
     padding: 14px 16px;
@@ -108,6 +94,6 @@ i {
 
 p { 
     height: 20%;
-    background-color: #1F1F1FCC;
+    background-color: #1F1F1FEE;
     padding: 1%;
 }
