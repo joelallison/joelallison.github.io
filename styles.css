@@ -93,11 +93,12 @@ i {
 }
 
 .topnav {
+    float: center;
     width: 40%;
 }
 
 .topnav a {
-    float: left;
+    float: center;
     color: #e6e6e6;
     text-align: center;
     padding: 14px 16px;
