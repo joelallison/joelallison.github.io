@@ -1,8 +1,13 @@
-body { 
+html { 
     font-family: "Ubuntu Mono";
     color: #f6f0f0;
     background-color: #e86048;
      
+}
+
+body {
+  padding: 16px;
+  padding-left: 32px;
 }
 
 a, a:visited, a:active {
@@ -16,9 +21,17 @@ a:hover {
   border: none;
 }
 
-navbar {
-    display: flex;
-    justify-content: space-between;
+nav {
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+nav a {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 /* considering using some of this https://www.cssfontstack.com/Ubuntu-Mono */
