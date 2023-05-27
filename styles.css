@@ -1,7 +1,7 @@
 html { 
     font-family: "Azeret Mono";
-    color: #f6f0f0;
-    background-color: #e86048;
+    color: #171717;
+    background-color: #e8e8e8;
      
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 a, a:visited, a:active {
-    color: #f6f0f0;
+    color: #171717;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
