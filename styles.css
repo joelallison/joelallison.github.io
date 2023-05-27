@@ -16,4 +16,9 @@ a:hover {
   border: none;
 }
 
+navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* considering using some of this https://www.cssfontstack.com/Ubuntu-Mono */
