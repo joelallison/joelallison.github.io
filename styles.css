@@ -1,11 +1,19 @@
-h1 { font-family: "Ubuntu Mono";
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
+body { 
+    font-family: "Ubuntu Mono";
+    color: #f6f0f0;
+    background-color: #e86048;
+     
 }
 
-a {
+a, a:visited, a:active {
+    color: #f6f0f0;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
 
+a:hover {
+  text-decoration: underline;
+  border: none;
 }
 
 /* considering using some of this https://www.cssfontstack.com/Ubuntu-Mono */
