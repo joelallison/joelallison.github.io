@@ -18,6 +18,11 @@ body {
   padding-left: 32px;
 }
 
+mark { 
+  background-color: transparent;
+  color: red;
+}
+
 a, a:visited, a:active {
     color: #171717;
     text-decoration: none;
