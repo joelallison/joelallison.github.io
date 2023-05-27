@@ -1,8 +1,16 @@
 html { 
-    font-family: "Ubuntu Mono";
+    font-family: "Azeret Mono";
     color: #f6f0f0;
     background-color: #e86048;
      
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h1 a {
+  border-bottom: none;
 }
 
 body {
