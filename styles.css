@@ -21,6 +21,11 @@ a:hover {
   border: none;
 }
 
+footer {
+    position: relative;
+    bottom: -20px;
+}
+
 nav {
   text-align: center;
   display: flex;
