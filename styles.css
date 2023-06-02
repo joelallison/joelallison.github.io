@@ -6,12 +6,11 @@ html {
 }
 
 header {
-    padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 
 h1 {
     font-weight: 700;
-    padding: 4px;
     padding-right: 8px;
 }
 
