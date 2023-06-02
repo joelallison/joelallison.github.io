@@ -5,6 +5,10 @@ html {
      
 }
 
+header {
+    padding-bottom: 8px;
+}
+
 h1 {
     font-weight: 700;
     padding: 4px;
