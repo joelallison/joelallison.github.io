@@ -25,6 +25,7 @@ h1 a {
 body {
   padding: 16px;
   padding-left: 32px;
+  padding-right: 32px;
 }
 
 mark { 
