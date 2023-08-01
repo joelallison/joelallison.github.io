@@ -1,7 +1,13 @@
+:root {
+    --main-foreground: #171717;
+    --main-background: #e8e8e8;
+    --accent-one: #ffd23d;
+}
+
 html { 
     font-family: "Azeret Mono";
-    color: #171717;
-    background-color: #e8e8e8;
+    color: var(--main-foreground);
+    background-color: var(--main-background);
      
 }
 
@@ -28,14 +34,13 @@ body {
   padding-right: 32px;
 }
 
-mark { 
-  background-color: transparent;
-  color: #ffd23d;
-  text-shadow: 2px 2px #000000;
+mark {
+    color: var(--accent-one);
+    background-color: var(--main-background);
 }
 
 a, a:visited, a:active {
-    color: #171717;
+    color: var(--main-foreground);
     text-decoration: none;
     border-bottom: 1px dotted;
 }
