@@ -30,7 +30,8 @@ body {
 
 mark { 
   background-color: transparent;
-  color: #ffd23d
+  color: #ffd23d;
+  text-shadow: 2px 2px #000000;
 }
 
 a, a:visited, a:active {
