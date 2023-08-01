@@ -1,7 +1,8 @@
 :root {
     --main-foreground: #171717;
     --main-background: #ffffff;
-    --accent-one: #ffd23d;
+    --accent-one: #ff8b6b;
+    --accent-two: #fa674d;
 }
 
 html { 
