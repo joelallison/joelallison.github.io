@@ -1,7 +1,7 @@
 :root {
     --main-foreground: #171717;
     --main-background: #ffffff;
-    --test: #509159;
+    --shadow: #00000019;
     --accent-one: #ff8b6b;
     --accent-two: #fa674d;
 }
@@ -10,6 +10,7 @@ html {
     font-family: "Azeret Mono";
     color: var(--main-foreground);
     background-color: var(--main-background);
+  text-shadow: 2px 2px var(--shadow);
      
 }
 
@@ -20,7 +21,6 @@ header {
 h1 {
     font-weight: 700;
     padding-right: 8px;
-    text-shadow: 5px 3px var(--test);
 }
 
 h1, h2, h3, h4, h5 {
@@ -39,6 +39,7 @@ body {
 
 mark {
     background-color: transparent;
+  text-shadow: 2px 2px var(--test);
 }
 
 a, a:visited, a:active {
