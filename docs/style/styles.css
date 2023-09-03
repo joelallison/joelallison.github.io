@@ -7,11 +7,16 @@
 }
 
 html { 
-    font-family: "Azeret Mono";
-    color: var(--main-foreground);
-    background-color: var(--main-background);
+  font-family: "Azeret Mono";
+  color: var(--main-foreground);
+  background-color: var(--main-background);
   text-shadow: 2px 2px var(--shadow);
+  margin: 0;
      
+}
+
+p {
+  padding-bottom: 16px;
 }
 
 header {
@@ -32,7 +37,10 @@ h1 a {
 }
 
 body {
-  padding: 16px;
+  margin: 0;
+}
+
+main {
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -54,9 +62,14 @@ a:hover {
 }
 
 footer {
-  position: absolute;
+  background-color: var(--accent-two);
+  color: var(--main-background);
+  position: fixed;
   bottom: 0;
-  height: 2.5rem;            /* Footer height */
+  height: 2rem;            /* Footer height */
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  width: 100vw;
 }
 
 nav {
