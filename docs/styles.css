@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
 
 header {
@@ -70,6 +70,12 @@ footer {
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   width: 100vw;
+}
+
+.navpanel {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
 }
 
 nav {
