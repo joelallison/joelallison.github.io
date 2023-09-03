@@ -51,9 +51,13 @@ mark {
 }
 
 a, a:visited, a:active {
-    color: var(--main-foreground);
-    text-decoration: none;
-    border-bottom: 1px dotted;
+  background-color: var(--accent-two);
+  color: var(--main-background);
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
 }
 
 a:hover {
