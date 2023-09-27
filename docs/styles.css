@@ -46,28 +46,25 @@ main {
 }
 
 mark {
-    background-color: transparent;
+  padding: 6px 6px 2px 6px;
+  color: var(--main-background);
+  background-color: var(--accent-two);
   text-shadow: 2px 2px var(--test);
 }
 
 a, a:visited, a:active {
-  background-color: var(--accent-two);
-  color: var(--main-background);
   text-decoration: none;
-  border-bottom: 1px dotted;
-  padding-left: 8px;
-  padding-right: 8px;
+  border-bottom: 1px dotted var(--accent-two);
   padding-top: 2px;
 }
 
 a:hover {
   text-decoration: underline;
+  text-decoration-color: var(--accent-two);
   border: none;
 }
 
 footer {
-  background-color: var(--accent-two);
-  color: var(--main-background);
   position: fixed;
   bottom: 0;
   height: 2rem;            /* Footer height */
