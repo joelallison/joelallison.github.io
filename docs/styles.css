@@ -46,7 +46,7 @@ main {
 }
 
 mark {
-  padding: 6px 6px 2px 6px;
+  padding: 4px 6px 2px 6px;
   background-color: var(--accent-two);
   text-shadow: 2px 2px var(--test);
 }
