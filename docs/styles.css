@@ -2,8 +2,7 @@
     --main-foreground: #171717;
     --main-background: #ffffff;
     --shadow: #00000019;
-    --accent-one: #ff8b6b;
-    --accent-two: #fa674d;
+    --accent: #eb6385;
 }
 
 html { 
@@ -47,19 +46,19 @@ main {
 
 mark {
   padding: 4px 6px 2px 6px;
-  background-color: var(--accent-two);
+  background-color: var(--accent);
   text-shadow: 2px 2px var(--test);
 }
 
 a, a:visited, a:active {
   text-decoration: none;
-  border-bottom: 1px dotted var(--accent-two);
+  border-bottom: 1px dotted var(--accent);
   padding-top: 2px;
 }
 
 a:hover {
   text-decoration: underline;
-  text-decoration-color: var(--accent-two);
+  text-decoration-color: var(--accent);
   border: none;
 }
 
