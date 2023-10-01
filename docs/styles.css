@@ -52,7 +52,6 @@ mark {
 
 a, a:visited, a:active {
   text-decoration: none;
-  border-bottom: 1px dotted var(--accent);
   padding-top: 2px;
 }
 
