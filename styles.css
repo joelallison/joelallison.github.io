@@ -5,7 +5,10 @@ html {
 
 body {
     min-height: 100vh;
-    border: 1px solid lightgrey;
+    border: 1px solid #f0f0f0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 4px;
     margin-top: 0px;
     margin-left: 20%;
     margin-right: 20%;
