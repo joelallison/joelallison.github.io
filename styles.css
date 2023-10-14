@@ -1,0 +1,10 @@
+footer {
+    background-color: var(--accent-two);
+    color: var(--main-background);
+    position: fixed;
+    bottom: 0;
+    height: 2rem;            /* Footer height */
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+    width: 100vw;
+  }
