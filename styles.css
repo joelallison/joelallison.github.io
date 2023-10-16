@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-size: 1.5em;
+    font-size: 1.1em;
     min-height: 100vh;
     border: 1px solid #f0f0f0;
     border-top-color: transparent;
@@ -19,12 +19,13 @@ body {
 h1 {
     text-align: center;
     font-weight: 700;
-    padding-right: 8px;
     font-size: 2.5em;
+    margin-bottom: 0px;
 }
 
 p {
     padding: 16px;
+    padding-top: 4px;
 }
 
 footer {
