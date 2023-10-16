@@ -4,14 +4,15 @@ html {
 }
 
 body {
+    font-size: 1.5em;
     min-height: 100vh;
     border: 1px solid #f0f0f0;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-radius: 4px;
     margin-top: 0px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: left;
 }
 
@@ -19,6 +20,7 @@ h1 {
     text-align: center;
     font-weight: 700;
     padding-right: 8px;
+    font-size: 2.5em;
 }
 
 p {
