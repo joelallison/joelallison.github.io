@@ -28,6 +28,12 @@ p {
     padding-top: 4px;
 }
 
+a, a:visited {
+    color: black;
+    text-decoration-style: wavy;
+        
+}
+
  a:hover {
      background-color: black;
      color: white;
