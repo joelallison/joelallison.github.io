@@ -28,6 +28,11 @@ p {
     padding-top: 4px;
 }
 
+ a:hover {
+     background-color: black;
+     color: white;
+}
+
 footer {
     background-color: var(--accent-two);
     color: var(--main-background);
