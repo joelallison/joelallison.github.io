@@ -1,5 +1,7 @@
 html {
     font-family: sans-serif;
+    background-color: hsl(0, 0, 98%);
+    color: #1a1818;
 }
 
 body {
@@ -68,14 +70,12 @@ h1 {
     font-size: 1.3em;
 }
 
-
-
 p {
     padding-bottom: 4px;
 }
 
 .selected {
-    color: #cf2b62 !important;
+    color: #FF5F1F !important;
 }
 
 a, a:visited {
@@ -90,3 +90,5 @@ mark:hover {
      background-color: black;
      color: white;
 }
+
+/* #fcba03 ? */
