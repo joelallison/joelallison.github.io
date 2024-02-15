@@ -1,10 +1,8 @@
 html {
-    /* font stack! */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 
 body {
-    background-color: #fffefe;
     font-size: 1.1em;
     min-height: 100vh;
     text-align: left;
@@ -63,6 +61,7 @@ ul, li {
 }
 
 h1 {
+    font-variant: bold;
     font-size: 12px;
     text-align: center;
     font-weight: 700;
@@ -72,7 +71,7 @@ h1 {
 
 
 p {
-    padding-bottom: 2px;
+    padding-bottom: 4px;
 }
 
 .selected {
