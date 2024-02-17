@@ -4,7 +4,7 @@
 
 html {
     font-family: sans-serif;
-    background-color: hsl(0, 0, 98%);
+    background-color: #ffffff;
     color: var(--accent-color) !important;
 }
 
@@ -40,6 +40,11 @@ footer {
         padding-top: 48px;
     }
 
+    main > h1 {
+        position: relative;
+        left: -72px;
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -48,9 +53,12 @@ footer {
         text-align: center;
     }
 
-
     main {
         padding-left: 30px;
+    }
+
+    main > h1 {
+        margin-left: -45px;
     }
 
     footer {
@@ -75,12 +83,17 @@ h1 {
     font-size: 1.3em;
 }
 
-p {
-    padding-bottom: 4px;
+
+h3 {
+    font-variant: bold;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1em;
+    margin-top: -0.8em;
 }
 
-.selected {
-    text-decoration-line: underline;
+p {
+    padding-bottom: 4px;
 }
 
 .filtered {
@@ -88,7 +101,6 @@ p {
 }
 
 a, a:visited {
-    text-decoration-line: dotted;
     color: var(--accent-color);
 }
 
@@ -96,6 +108,7 @@ a:hover {
     background-color: var(--accent-color);
     color: white;
     font-style: italic;
+    text-decoration-style: wavy;
 }
 
 hr {
@@ -103,5 +116,3 @@ hr {
     background-color: var(--accent-color);
     color: var(--accent-color);
 }
-
-/* #fcba03 ? */
