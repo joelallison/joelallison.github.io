@@ -1,7 +1,11 @@
+:root {
+    --accent-color: #2f2cff;
+}
+
 html {
     font-family: sans-serif;
     background-color: hsl(0, 0, 98%);
-    color: #1a1818;
+    color: var(--accent-color) !important;
 }
 
 body {
@@ -33,7 +37,7 @@ footer {
 
 
     main {
-        padding-top: 1em;
+        padding-top: 48px;
     }
 
 }
@@ -60,6 +64,7 @@ footer {
 ul, li {
     list-style-type: none;
     padding: 4px 0px 4px 0px;
+    font-size: 0.95em;
 }
 
 h1 {
@@ -75,20 +80,28 @@ p {
 }
 
 .selected {
-    color: #FF5F1F !important;
+    text-decoration-line: underline;
+}
+
+.filtered {
+    filter: sepia(77%) contrast(300%) saturate(500%) hue-rotate(223deg) brightness(83%) contrast(150%);
 }
 
 a, a:visited {
-    color: black; 
+    text-decoration-line: dotted;
+    color: var(--accent-color);
 }
 
-mark {
-    background-color: white;
+a:hover {
+    background-color: var(--accent-color);
+    color: white;
+    font-style: italic;
 }
 
-mark:hover {
-     background-color: black;
-     color: white;
+hr {
+    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 /* #fcba03 ? */
