@@ -22,9 +22,3 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
-
-.centered:hover {
-    font-style: italic;
-    color: var(--background-color);
-    background-color: var(--accent-color);
-}
