@@ -22,3 +22,11 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
+
+.centered-img {
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    width: 33%;
+}
+
