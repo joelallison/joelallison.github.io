@@ -13,7 +13,7 @@ html, body {
     color: var(--accent-color) !important;
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 2%;
     width: 100%;
 }
 
