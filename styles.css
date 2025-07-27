@@ -1,32 +1,44 @@
 :root { 
-    --background-color: #ffffff;
-    --accent-color:: #212142;
+    --flame: #C86440;
 }
 
 h1 {
     font-family: 'Helvetica';
-}
-
-html, body {
-    font-family: 'IBM Plex Mono';
-    background-color: var(--background-color);
-    color: var(--accent-color) !important;
-    height: 100%;
-    margin: 0;
-    padding: 2%;
-    width: 100%;
-}
-
-body {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-flow: row;
+    margin-top: 0;
+    padding: 12pt;
+    padding-top: 16pt;
+    width: 70vw;
+    color: #000;
+    background-color: #fff;
 }
 
-.centered-img {
-    text-align: center;
-    display: block;
-    vertical-align: middle;
-    width: 33%;
+body, html {
+    font-family: 'Helvetica';
+    background-color: var(--background-color);
+    color: var(--text-color) !important;
+    margin: 0;
+    height: 100vh;
 }
 
+.content {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    width: 70vw;
+    align-self: center;
+    background-color: #eee;
+}
+
+.bio {
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    margin-left: 12pt;
+}
