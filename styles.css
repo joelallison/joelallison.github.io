@@ -2,17 +2,24 @@
     --flame: #C86440;
 }
 
+.header {
+  padding-top: 4px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
 h1 {
     font-family: 'Helvetica';
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     display: flex;
     flex-flow: row;
     margin-top: 0;
     margin-bottom: 0;
     padding: 12pt;
     padding-top: 16pt;
-    width: 70vw;
+    width: 50%;
     color: #000;
     background-color: #fff;
 }
@@ -35,6 +42,40 @@ body, html {
     width: 70vw;
     align-self: center;
     background-color: #eee;
+}
+
+.nav {
+  background-color: #fff;
+  font-family: 'IBM Plex Mono';
+  display: flex;
+  flex-flow: row;
+  padding: 1em;
+  margin-left: auto;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #ddd;
+  }
+
 }
 
 .bio {
