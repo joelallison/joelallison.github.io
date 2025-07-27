@@ -69,7 +69,8 @@ body, html {
     display: block;
     color: #111;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
+    margin-bottom: -4px;
     text-decoration: none;
   }
   
