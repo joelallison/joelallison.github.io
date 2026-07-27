@@ -2,12 +2,13 @@
     --flame: #C86440;
 }
 
+
 .header {
   padding-top: 4px;
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: #2c59a0;
 }
 
 h1 {
@@ -20,14 +21,14 @@ h1 {
     padding: 12pt;
     padding-top: 16pt;
     width: 50%;
-    color: #000;
-    background-color: #fff;
+    color: #2c59a0;
+    background-color: #2c59a0;
 }
 
 body, html {
     font-family: 'Helvetica';
-    background-color: var(--background-color);
-    color: var(--text-color) !important;
+    background-color: #2c59a0;
+    color: #2c59a0 !important;
     margin: 0;
     height: 100vh;
 }
@@ -41,11 +42,11 @@ body, html {
     min-height: 100vh;
     width: 70vw;
     align-self: center;
-    background-color: #eee;
+    background-color: #2c59a0;
 }
 
 .nav {
-  background-color: #fff;
+  background-color: #2c59a0;
   /*font-family: 'IBM Plex Mono';*/
   display: flex;
   flex-flow: row;
@@ -58,7 +59,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #eee;
+    background-color: #2c59a0;
   }
   
   li {
@@ -67,7 +68,7 @@ body, html {
   
   li a {
     display: block;
-    color: #111;
+    color: #2c59a0;
     text-align: center;
     padding: 16px 16px;
     margin-bottom: -4px;
@@ -75,7 +76,7 @@ body, html {
   }
   
   li a:hover {
-    background-color: #ddd;
+    background-color: #244883;
   }
 
 }
