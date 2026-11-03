@@ -1,0 +1,10 @@
+# Basic site settings.
+title: "Recording Engineer"
+description: "Selected production, recording, mixing and mastering work."
+
+# Markdown files placed in _projects/ become portfolio entries.
+collections:
+  projects:
+    output: false
+
+# Sort is handled in index.html so newest projects appear first.

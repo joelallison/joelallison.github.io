@@ -1,45 +1,54 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Joel Allison</title>
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM Plex Mono">
-    </head>
-        <body>
-            <div class="content">
-                <div class="header">
-                    <h1>joel allison</h1>
-                    <div class="nav">
-                        <ul>
-                            <li><a href="index.html">Projects</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <!--<li><a href="mailto:thatjoelallison@gmail.com"><img style="height: 1em;" src="gentlecons/mail-svgrepo-com.svg"/></a></li>
-                            <li><a href="https://linktree.com/joelallison"><img style="height: 1em;" src="gentlecons/anchor-link-svgrepo-com.svg"/></a></li>-->
-                          </ul>
-                    </div>
-                </div>
-                <div class="bio">digital zine & portfolio, kinda</div>
-                <div class="row">
-                    <div class="column">
-                        <img src="photos/digicam/260111/SAM_0364.JPG" style="width:100%">
-                        <img src="photos/digicam/260111/SAM_0384.JPG" style="width:100%">
-                    </div>
-                    <div class="column">
-                        <img src="photos/digicam/260111/SAM_0368.JPG" style="width:100%">
-                        <img src="photos/digicam/260111/SAM_0364.JPG" style="width:100%">
-                    </div>
-                    <div class="column">
-                        <img src="photos/digicam/260111/SAM_0378.JPG" style="width:100%">
-                        <img src="photos/digicam/260111/SAM_0371.JPG" style="width:100%">
-                        
-                    </div>
-                    <div class="column">
-                        <img src="photos/digicam/260111/SAM_0377.JPG" style="width:100%">
-                        <img src="photos/digicam/260111/SAM_0388.JPG" style="width:100%">
-                    </div>
-                </div>
-                
-        </body>
+---
+# Jekyll front matter: this file is processed as Liquid.
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | default: "Recording Engineer" }}</title>
+  <style>
+    /* Keep the design intentionally small and neutral. */
+    :root { font-family: system-ui, sans-serif; color: #151515; background: #fff; }
+    * { box-sizing: border-box; }
+    body { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+    header { margin-bottom: 2rem; }
+    h1 { margin: 0 0 .35rem; font-size: clamp(2rem, 5vw, 4rem); }
+    header p { margin: 0; color: #666; }
+    /* Four columns on larger screens; collapse for smaller screens. */
+    .projects { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2rem 1rem; }
+    .project { min-width: 0; }
+    .cover { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: #eee; }
+    h2 { margin: .65rem 0 .2rem; font-size: 1rem; line-height: 1.2; }
+    .credits { margin: 0; color: #666; font-size: .9rem; line-height: 1.35; }
+    .empty { color: #666; }
+    @media (max-width: 800px) { .projects { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 420px) { .projects { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Change these defaults in _config.yml, or replace the text directly. -->
+    <h1>{{ site.title | default: "Recording Engineer" }}</h1>
+    <p>{{ site.description | default: "Selected production, recording, mixing and mastering work." }}</p>
+  </header>
+
+  <main class="projects">
+    <!-- Jekyll sorts collection documents newest first using the date below. -->
+    {% assign projects = site.projects | sort: "date" | reverse %}
+    {% for project in projects %}
+      <article class="project">
+        <!-- Each Markdown file supplies an image path in its front matter. -->
+        <img class="cover" src="{{ project.image | relative_url }}" alt="{{ project.title }} album cover" loading="lazy">
+        <h2>{{ project.title }}</h2>
+        <!-- Use a short front-matter string such as "Recording · Mixing". -->
+        <p class="credits">{{ project.contribution }}</p>
+      </article>
+    {% else %}
+      <!-- Shown until the first project Markdown file is added. -->
+      <p class="empty">Add project Markdown files to <code>_projects/</code>.</p>
+    {% endfor %}
+  </main>
+</body>
 </html>
