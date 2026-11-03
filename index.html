@@ -30,8 +30,8 @@ layout: null
 <body>
   <header>
     <!-- Change these defaults in _config.yml, or replace the text directly. -->
-    <h1>{{ site.title | default: "Recording Engineer" }}</h1>
-    <p>{{ site.description | default: "Selected production, recording, mixing and mastering work." }}</p>
+    <h1>{{ site.title | default: "Joel Allison" }}</h1>
+    <p>{{ site.description | default: "" }}</p>
   </header>
 
   <main class="projects">
@@ -40,8 +40,10 @@ layout: null
     {% for project in projects %}
       <article class="project">
         <!-- Each Markdown file supplies an image path in its front matter. -->
-        <img class="cover" src="{{ project.image | relative_url }}" alt="{{ project.title }} album cover" loading="lazy">
-        <h2>{{ project.title }}</h2>
+        <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
+          <img class="cover" src="{{ project.image | relative_url }}" alt="{{ project.title }} album cover" loading="lazy">
+        </a>
+        <h2>{{ project.title }}</h2> <h3>{{ project.artist }}</h3>
         <!-- Use a short front-matter string such as "Recording · Mixing". -->
         <p class="credits">{{ project.contribution }}</p>
       </article>
