@@ -43,7 +43,7 @@ layout: null
         <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
           <img class="cover" src="{{ project.image | relative_url }}" alt="{{ project.title }} album cover" loading="lazy">
         </a>
-        <h2>{{ project.title }}</h2> <h3>{{ project.artist }}</h3>
+        <h2>{{ project.title }}, <em>{{ project.artist }}</em> </h2>
         <!-- Use a short front-matter string such as "Recording · Mixing". -->
         <p class="credits">{{ project.contribution }}</p>
       </article>

@@ -1,6 +1,6 @@
 # Basic site settings.
-title: "Recording Engineer"
-description: "Selected production, recording, mixing and mastering work."
+title: "Joel Allison"
+description: ""
 
 # Markdown files placed in _projects/ become portfolio entries.
 collections:
