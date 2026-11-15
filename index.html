@@ -43,7 +43,8 @@ layout: null
         <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">
           <img class="cover" src="{{ project.image | relative_url }}" alt="{{ project.title }} album cover" loading="lazy">
         </a>
-        <h2>{{ project.title }},<br> <em>{{ project.artist }}</em> </h2>
+        <h2>{{ project.title }}</h2>
+        <p class="artist" style="font-weight: bold;">{{ project.artist }}</p>
         <p class="credits">{{ project.contribution }}</p>
       </article>
     {% else %}
